@@ -38,6 +38,7 @@ def db_init():
         host="mysqldb",
         user="root",
         password="p@ssw0rd1"
+    
     )
     cursor = mydb.cursor()
 
